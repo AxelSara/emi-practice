@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-main-dark);
+}
+:root{
+    --color-main: #3d5a80;
+    --color-main-dark:#283241;
+    --color-main-pastel:#99c1d8;
+    --color-detail: #ee6c4d;
+    --color-subtitles: #4f74a6;
+    --color-footer: #111a25;
+}
+header{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-main-pastel);
+    display: flex;
+    justify-content:space-between;
+}
+.home{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.home h1 a{
+    text-decoration: none;
+    color: var(--color-main-pastel);
+}
+.home h1 a:hover{
+    text-decoration: overline;
+    color: var(--color-detail);
+}
+#logo{
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 2.5em;
+    padding-top: 1em;
+}
+.navbar-items{
+    margin: 2em 1em;
+    font-size: 1.5em;
+}
+.navbar-items a{
+    text-decoration: none;
+    color: var(--color-main-pastel);
+}
+.navbar-items a:hover{
+    text-decoration: overline;
+    color: var(--color-detail);
+}
+#wave{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-main-pastel);
+    margin: 1em;
+}
+#button{
+    color: var(--color-main-pastel);
+    margin: 2em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 3px var(--color-main-pastel);
+}
+#button:hover{
+    box-shadow: 5px 3px var(--color-detail);
+}
