@@ -3,18 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--color-main);
-}
-:root{
-    --color-header: #777395;
-    --color-main: #F1EDFF;
-    --color-detail: #3DC5A1;
-    --color-footer: #004c87;
-}
-header{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+:root{
+    --color-header: #777395;
+    --color-main: #F1EDFF;
+    --color-dark: #393748;
+    --color-detail: #3DC5A1;
+    --color-footer: #004c87;
+}
+header{
     font-size: medium;
     display: flex;
     justify-content: space-between;
@@ -38,14 +39,47 @@ header{
     background-color: var(--color-header);
     color: var(--color-main);
 }
-#wave{
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+#container{
+    display: flex;
+    justify-content: start;
+}
+#menu{
     color: var(--color-header);
-    padding: 3em;
+    padding: 1em;
+}
+#list-title{
+    display: flex;
+}
+#dino-list{
+    margin: 0.8em 0.5em;
+}
+#title-list{
+    margin: 0.4em 0.0em;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em;
+}
+#menu-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em;
+}
+#content a{
+    color: var(--color-header);
+    text-decoration: none;
+    font-size: larger;
+}
+#content a:hover{
+    color: var(--color-dark);
+    text-decoration: underline;
+}
+#wave{
+    flex-grow: 1;
+    text-align: center;
+    color: var(--color-header);
+    padding: 5em;
 }
 #button{
     color: var(--color-main);
@@ -56,7 +90,7 @@ header{
     box-shadow: 0px 0px 0px 1px var(--color-header);
 }
 #button:hover{
-    color: var(--color-font);
+    color: var(--color-header);
     background-color: var(--color-main);
     margin: 2em;
     padding: 0.5em 1em;
@@ -74,4 +108,33 @@ header{
     font-style: normal;
     color: var(--color-header);
     padding: 3em;
+}
+#exercise-1{
+    flex-grow: 1;
+    padding: 5em;
+    color: var(--color-header);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#exercise-1 #button{
+    width: 100px;
+}
+.square{
+    box-shadow: 0px 0px 0px 1px var(--color-dark);
+    margin: 1em;
+    border-radius: 20px;
+    width: 40%;
+    text-align: left;
+}.square .text{
+    margin: 1em;
+    text-align: center;
+}
+.square-id{
+    box-shadow: 0px 0px 0px 1px var(--color-dark);
+    padding: 0em 0.8em;
+    border-radius: 20px 20px 0px 0px;
+    background-color: var(--color-header);
+    color: var(--color-main);
 }
