@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+:root{
+    --color-header: #777395;
+    --color-main: #F1EDFF;
+    --color-dark: #393748;
+    --color-detail: #3DC5A1;
+    --color-footer: #004c87;
+}
+header{
+    font-size: xx-small;
+    background-color: var(--color-header);
+    margin: 0em;
+    display: flex;
+}
+.navbar-brand{
+    background-color: var(--color-d);
+}
+#dino{
+    margin-right: 2%;
+}
+#menu-nav{
+    padding: 0em;
+    flex-grow: 1;
+}
+#menu-nav a:hover{
+    color: var(--color-dark);
+}
+#main-menu{
+    color: var(--color-main);
+}
+#navbar{
+    background-color: var(--color-header);
+}
+.nav-link{
+    background-color: var(--color-header);
+    color: var(--color-main);
+    font-size: medium;
+}
+.menu-sec{
+    color: var(--color-header);
+}
+.menu-tittle{
+    display: flex;
+    padding: 1em;
+}
+#menu-items{
+    padding: 0em 2em;
+    display: flex;
+    flex-direction: column;
+}
+#menu-items a{
+    text-decoration: none;
+    color: var(--color-header);
+}
+#menu-items a:hover{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+.container-main{
+    display: flex;
+}
+.X-text{
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 5em;
+    color: var(--color-header);
+}
+#wave{
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 5em;
+    color: var(--color-header);
+
+}
+.button{
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 15px;
+    color: var(--color-header);
+    border-style: none;
+    box-shadow: 0px 0px 0px 1px var(--color-dark);
+}
+.button:hover{
+    box-shadow: 5px 5px 0px 2px var(--color-detail);
+}
+.exercise{
+    color: var(--color-header);
+    padding: 1em;
+    text-align: center;
+}
+.square{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    margin: 1em 0em;
+}
+.square-id{
+    margin: 0em;
+    padding: 0em 1em;
+    border-width: 3px;
+    border-bottom-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--color-header);
+    color: var(--color-main);
+    text-align: left;
+}
+.text{
+    padding: 0em 1em;
+}
