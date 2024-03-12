@@ -116,3 +116,9 @@ header{
 .text{
     padding: 0em 1em;
 }
+h3{
+    text-align: left;
+}
+.list-order{
+    text-align: left;
+}

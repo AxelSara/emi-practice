@@ -10,3 +10,22 @@ const menuContent = () => {
     `;
   }
   menuContent();
+  const printOutString = () => {
+    let arr = parseInt(document.getElementById("inputArray").value);
+    let array = [];
+    let arrayDouble = [];
+    let arrayMap = [];
+    if(arr > 0){
+      let num = arr.toString();
+      for (const digit of num) {
+        array.push(digit);
+        arrayDouble.push(digit*2);
+      }
+      arrayMap = array.map( (num) => num*2);
+      document.getElementById("message1").innerHTML = `[${arrayDouble}]`;
+      document.getElementById("message2").innerHTML = `[${arrayMap}]`;
+    }else{
+      document.getElementById("message1").innerHTML = "The value is not a number";
+      document.getElementById("message2").innerHTML = "The value is not a number";
+    }
+  }
