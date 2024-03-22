@@ -129,3 +129,16 @@ h3{
 #animated-text{
     font-size: x-large;
 }
+
+
+/* ===================Api fetch=================*/
+
+.user-Avatar{
+    border-radius: 50%;
+    width: 4rem;
+    height: auto;
+}
+
+#cards-user tr{
+    vertical-align: text-top;
+}
