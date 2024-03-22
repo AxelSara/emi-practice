@@ -7,6 +7,8 @@ const menuContent = () => {
     <a href="./exercise-4.html">Exercise 4</a>
     <a href="./exercise-5.html">Exercise 5</a>
     <a href="./exercise-6.html">Exercise 6</a>
+    <a href="./find-a-number.html">Guess a number</a>
+    <a href="./cards.html">Cards</a>
     `;
 }
 menuContent();

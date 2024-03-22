@@ -96,6 +96,7 @@ header{
     color: var(--color-header);
     padding: 1em;
     text-align: center;
+    flex-grow: 1;
 }
 .square{
     border-width: 3px;
@@ -121,4 +122,10 @@ h3{
 }
 .list-order{
     text-align: left;
+}
+
+/* ===================Guess a number=================*/
+
+#animated-text{
+    font-size: x-large;
 }
